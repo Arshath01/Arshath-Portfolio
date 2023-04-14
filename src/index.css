@@ -11,3 +11,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#Home-bg {
+  background-image: url('./images/bg.jpg');
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 649px;
+}
+#Home-bg center {
+  position: relative;
+  top: 150px;
+  
+}
+#logos {
+  position: relative;
+  top: 160px;
+}
+
+#navigation {
+ position: absolute;
+ top: 30px;
+ right: 120px;
+ float: right;
+}
+
+
+#nav {
+  text-decoration: none;
+  margin: 0px 20px;
+}
+#linkedin {
+  margin: 0px 10px;
+  height: 40px;
+  width: 40px;
+  background-image: url('./images/linkedin.jpeg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+}
+#instagram {
+  margin: 0px 10px;
+  height: 40px;
+  width: 40px;
+  background-image: url('./images/instagram.jpeg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+}
+#twitter {
+  margin: 0px 10px;
+  height: 40px;
+  width: 40px;
+  background-image: url('./images/twitter.jpeg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+}
+#gmail {
+  margin: 0px 10px;
+  height: 40px;
+  width: 40px;
+  background-image: url('./images/gmail.jpeg');
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+}
+#viewProject {
+  background-image: linear-gradient(to right, #743ee3, #f66e1a);
+  /* any other styles you want to add */
+}
+
+#viewProject:hover {
+  background-image: linear-gradient(to right, #f66e1a, #743ee3);
+}
