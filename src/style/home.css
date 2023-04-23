@@ -1,0 +1,79 @@
+/* main component */
+#main-component {
+  /* background-image: url('../images/bg2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color: white;
+  background: #101728;
+  width: 100%;
+  height: 649px;
+}
+
+/* navbar */
+#navbar {
+  font: 13px;
+  font-family: sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#navbar ul li {
+  margin: 0px 20px;
+}
+
+#Link {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+
+#Link:hover {
+  padding-bottom: 5px;
+  border-bottom: 2px solid white;
+}
+
+/* container */
+#container {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-top: 130px;
+}
+
+#socialmedia {
+  margin: 150px;
+}
+
+#socialmedia ul {
+  justify-content: center;
+}
+
+#link-li {
+  border-radius: 100%;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin: 0px 15px;
+}
+
+#link-li:hover {
+  transition: .3s;
+  transform: scale(1.12);
+}
+.menu-icon {
+  display: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .links {
+    display: block;
+    display: flex;
+    flex-direction: row;
+  }
+  .menu-icon {
+    display: none;
+  }
+}/* Navbar */
+
+
